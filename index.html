@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <link href="./Style.css" rel="stylesheet" />
+
+    <title>Device Shop Checkout | devChallenges.io</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!--     
+    Checkout
+    
+    3 items
+    
+    iPhone 12 Pro
+    
+    Golden
+    
+    $999.00
+    
+    x 1
+    
+    Apple Watch
+    
+    Blue
+    
+    $399.00
+    
+    iMac
+    
+    Green
+    
+    $1199.00
+    
+    Enter coupon code
+    
+    Apply Coupon
+    
+    Sub total
+    
+    $2597.00
+    
+    Tax
+    
+    $623.28
+    
+    Total
+    
+    $3220.28
+    
+    Contact Information
+    
+    First & Last name
+    
+    Enter first & last name
+    
+    Email Address
+    
+    Enter email address
+    
+    Country
+    
+    Finland
+    
+    Postal Code
+    
+    00270
+    
+    Continue
+     -->
+
+    <div class="author-info">
+      Coded by <a href="#">Your Name Here</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+
+    <div id="Checkout">
+
+      <div class="ConteinerCheckout">
+
+        <div class="BannerCheckout">
+          <div class="BoxText"><h3>Checkout</h3> <span><p>2 items</p></span></div>
+        </div>
+
+        <div class="ConteinerElement">
+          <div class="BoxPreview">
+            <div class="BoxElements">
+              
+              <div class="ConteinerProduto">
+                <div class="Product">
+                  <div class="BoxImgProduct">
+                    <img src="./resources/Gold@2x.png"/>
+                  </div>
+                  <div class="BoxInfoProduct">
+                    <h4>IPhone 12 Pro</h4>
+                    <p>Golden</p>
+                    <p>X 1</p>
+                    <h4>$999.00</h4>
+                    <p>X</p>
+                  </div>
+                </div>
+
+                <div class="Product">
+                  <div class="BoxImgProduct">
+                    <img src="./resources/Apple-watchx2.png"/>
+                  </div>
+                  <div class="BoxInfoProduct">
+                    <h4>Apple Watch</h4>
+                    <p>Blue</p>
+                    <p>X 1</p>
+                    <h4>$399.00</h4>
+                    <p>X</p>
+                  </div>
+                </div>
+
+                <div class="Product">
+                  <div class="BoxImgProduct">
+                    <img src="./resources/iMac@2x.png"/>
+                  </div>
+                  <div class="BoxInfoProduct">
+                    <h4>iMac</h4>
+                    <p>Green</p>
+                    <p>X 1</p>
+                    <h4>$1199.00</h4>
+                    <p>X</p>
+                  </div>
+                </div>
+              </div>
+              
+              <hr style="opacity: 0.2;"/>
+              
+              <div class="ConteinerCupom">
+                <input type="text" placeholder="Enter coupon code" name="cupom" />
+                <button type="button">Apply Coupon</button>
+              </div>
+
+              <div class="ConteinerInfo">
+                <div class="BoxInfoPedido"><h4>Sub total</h4> <p>$2597.00</p></div>
+                <div class="BoxInfoPedido"><h4>Tax</h4> <p>$623.00</p></div>
+                <div class="BoxInfoPedido"><h4 style="font-weight: 600; color: #000">Total</h4> <p style="font-weight: 600; color: #000;">$3220.28</p></div>
+              </div>
+
+            </div>
+          </div>
+          <div class="BoxForm">
+
+            <h3>Contact Information</h3>
+
+            <form action="">
+              <label for="name">
+                <legend>First & Last name</legend>
+                <input type="text" placeholder="Enter First & Last name" name="name">
+              </label>
+  
+              <label for="email">
+                <legend>Email Address</legend>
+                <input type="text" placeholder="Enter email address" name="email">
+              </label>
+  
+              <div class="BoxCountry">
+                <label for="Country">
+                  <legend>Country</legend>
+                  <select name="Country" id="">
+                    <option value="Finlandia">Finlandia</option>
+                    <option value="Italia">Italia</option>
+                    <option value="Brasil">Brasil</option>
+                  </select>
+                </label>
+    
+                <label for="Postal Code">
+                  <legend>Postal Code</legend>
+                  <input type="text" placeholder="Postal Code" name="postalCode">
+                </label>
+              </div>
+  
+              <Button>Continue</Button>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+
+  </body>
+</html>
